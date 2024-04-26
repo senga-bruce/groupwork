@@ -1,0 +1,78 @@
+* {
+  margin: 0px;
+  padding: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  box-sizing: border-box;
+  /* background-color: rgb(100, 125, 145); */
+}
+body{
+  background-color: rgb(100, 125, 145);
+
+}
+h1 {
+  padding: 10px;
+  margin: 10px;
+
+  font-size: 52px;
+}
+h2{
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.all {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 10px;
+  /* background-color: rgb(100, 125, 145); */
+  /* border: 1px solid black; */
+}
+.teacher {
+  margin: 10px;
+  padding: 10px;
+  width: 31.2%;
+  height: 300px;
+  border-radius: 10px;
+  border: 1px solid black;
+  box-shadow: 2px 2px 40px black;
+  background-color: rgb(190, 220, 245);
+  
+}
+.teacher:hover{
+    background-color: rgb(100, 125, 145);
+    cursor: pointer;
+}
+.photo {
+  width: 80px;
+  height: 80px;
+  border-radius: 50px;
+  background-color: grey;
+}
+.header1 {
+  width: 100%;
+  display: flex;
+  gap: 30%;
+  padding: 20px;
+  background-color: #fff;
+}
+.logo {
+  margin-left: 15%;
+}
+a {
+  text-decoration: none;
+  margin-left: 30px;
+  font-size: 20px;
+  color: black;
+}
+button {
+  width: 70px;
+  height: 30px;
+  background-color: orange;
+  color: #fff;
+  border: none;
+  margin-left: 30px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
